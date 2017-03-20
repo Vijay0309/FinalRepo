@@ -51,11 +51,11 @@ angular.module('confusionApp')
                   }
                 };
         }])
-        .controller('dishDetailController',[ '$scope', 'menuFactory', function($scope, menuFactory) {
+        .controller('dishDetailController',[ '$scope', '$stateParams' 'menuFactory', function($scope, $stateParams, menuFactory) {
 
         //  var noscope = "i am noscope";
         //  this.noscope = noscope;
           $scope.hack = "i am hack";
-          $scope.dish = menuFactory.getDish(3);
+          $scope.dish = menuFactory.getDish(parseInt($stateParams.id,10));
 
         }]);
