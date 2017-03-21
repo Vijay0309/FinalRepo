@@ -51,7 +51,7 @@ angular.module('confusionApp')
                   }
                 };
         }])
-        .controller('dishDetailController',[ '$scope', '$stateParams' 'menuFactory', function($scope, $stateParams, menuFactory) {
+        .controller('dishDetailController',[ '$scope', '$stateParams', 'menuFactory', function($scope, $stateParams, menuFactory) {
 
         //  var noscope = "i am noscope";
         //  this.noscope = noscope;

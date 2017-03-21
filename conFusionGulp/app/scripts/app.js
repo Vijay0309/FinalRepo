@@ -23,7 +23,7 @@ angular.module('confusionApp', ['ui.router'])
                 url:'aboutus',
                 views: {
                     'content@': {
-                        template: '<h1>To be Completed</h1>'
+                        template: '<h1>To be Completed he</h1>'
                    }
                 }
             })
@@ -44,7 +44,7 @@ angular.module('confusionApp', ['ui.router'])
                 views: {
                     'content@': {
                         templateUrl : 'views/menu.html',
-                        controller  : 'MenuController'
+                        controller  : 'menuController'
                     }
                 }
             })
